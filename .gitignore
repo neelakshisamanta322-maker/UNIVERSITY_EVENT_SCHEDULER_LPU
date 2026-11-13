@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Local data & temporary folders
+.ML/
+scratch/
+New folder/
+*.bak
+*.stage*
+
+# Secrets and environment configurations
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+scheduler.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
