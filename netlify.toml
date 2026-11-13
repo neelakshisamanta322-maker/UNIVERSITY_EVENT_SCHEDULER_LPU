@@ -1,0 +1,4 @@
+# Publish only the `public` folder so repository files such as .env and
+# scheduler.db are never served.
+[build]
+  publish = "public"
