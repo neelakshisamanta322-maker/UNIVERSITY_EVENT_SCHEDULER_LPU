@@ -1,8 +1,0 @@
-.venv/
-__pycache__/
-.pytest_cache/
-scheduler.db
-.env
-.env.*
-*.bak
-*.pyc
